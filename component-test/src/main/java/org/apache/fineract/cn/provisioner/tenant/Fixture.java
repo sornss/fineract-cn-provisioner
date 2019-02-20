@@ -45,7 +45,7 @@ class Fixture {
     databaseConnectionInfo.setDriverClass("org.mariadb.jdbc.Driver");
     databaseConnectionInfo.setDatabaseName(compTestTenant.getIdentifier());
     databaseConnectionInfo.setHost("localhost");
-    databaseConnectionInfo.setPort("3306");
+    databaseConnectionInfo.setPort("3307");
     databaseConnectionInfo.setUser("root");
     databaseConnectionInfo.setPassword("mysql");
 

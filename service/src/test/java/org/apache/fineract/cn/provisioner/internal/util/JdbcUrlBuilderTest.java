@@ -23,7 +23,7 @@ import org.junit.Test;
 
 public class JdbcUrlBuilderTest {
 
-  private final static String MARAIDB_JDBC_URL = "jdbc:mariadb://localhost:3306/comp_test";
+  private final static String MARAIDB_JDBC_URL = "jdbc:mariadb://localhost:3307/comp_test";
 
   public JdbcUrlBuilderTest() {
     super();
@@ -34,7 +34,7 @@ public class JdbcUrlBuilderTest {
     final String mariaDbJdbcUrl = JdbcUrlBuilder
         .create(JdbcUrlBuilder.DatabaseType.MARIADB)
         .host("localhost")
-        .port("3306")
+        .port("3307")
         .instanceName("comp_test")
         .build();
 

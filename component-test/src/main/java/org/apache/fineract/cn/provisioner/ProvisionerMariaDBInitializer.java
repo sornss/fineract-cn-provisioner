@@ -29,7 +29,7 @@ public class ProvisionerMariaDBInitializer extends ExternalResource {
   private static DB EMBEDDED_MARIA_DB;
   @Override
   protected void before() throws ManagedProcessException {
-    EMBEDDED_MARIA_DB = DB.newEmbeddedDB(3306);
+    EMBEDDED_MARIA_DB = DB.newEmbeddedDB(3307);
     EMBEDDED_MARIA_DB.start();
   }
 
